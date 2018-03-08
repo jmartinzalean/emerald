@@ -1,0 +1,402 @@
+
+/* CUSTOM POST TEMPLATE */
+
+#main-container .main_row{
+    padding: 40px 0;
+}
+
+#main-container .nav-tabs>li>a{
+    font-size: 12px;
+    border-color: #ddd;
+    border-bottom: none;
+}
+
+#main-container .nav-tabs>li>a:hover{
+    background: #d5ffd7;
+}
+
+#main-container #accordion .panel-heading{
+    padding: 0;
+}
+
+#main-container th.left,
+#main-container td.left{
+    text-align: left !important;
+}
+
+#main-container th.one,
+#main-container td.one{
+    width: 10%;
+}
+
+#main-container th.two,
+#main-container td.two{
+    width: 70%;
+}
+#main-container th.two{
+    text-indent: -11%;
+}
+#main-container th.last{
+    text-indent: -9%;
+}
+
+#main-container th.three,
+#main-container td.three{
+    width: 20%;
+}
+
+#main-container .tab-content>.tab-pane {
+    padding: 0 30px 30px;
+    border: 1px solid #ddd;
+}
+
+#main-container #accordion{
+    /*border: 1px solid #ddd;*/
+}
+
+#main-container #accordion a {
+    position: relative;
+    width: 100%;
+    display: block;
+    color: #000000;
+}
+
+#main-container #accordion a:after {
+    content: "\A";
+    border-style: solid;
+    border-width: 7px 10px 7px 0;
+    border-color: transparent #ccc transparent transparent;
+    position: absolute;
+    right: 10px;
+    transform: rotate(-90deg);
+    top: 11px;
+}
+
+#main-container #accordion a[aria-expanded="true"],
+#main-container #accordion a:hover,
+#main-container #accordion a:hover table.table_accordion tr,
+#main-container #accordion a:hover .panel-collapse .panel-body{
+    background: #f0fff1 !important;
+}
+#main-container #accordion a:hover table.table_accordion > tbody > tr > td{
+    border: none !important;
+}
+
+#main-container #accordion a:hover:after{
+    border-color: transparent #4caf50 transparent transparent;
+}
+
+#main-container #accordion a[aria-expanded="true"]:after{
+    transform: rotate(90deg);
+    border-color: transparent #4caf50 transparent transparent;
+}
+
+#main-container #accordion a strong{
+    font-family: sans-serif;
+}
+
+#main-container .tab-content table{
+    font-size: 0.75em;
+    border-collapse: separate;
+    border-spacing: 0 2px;
+    margin-bottom: 0;
+}
+
+
+#main-container .tab-content table tbody tr:nth-child(even){
+    background: #eee;
+}
+
+#main-container .tab-content table tbody tr:nth-child(odd){
+    background: #e0dadf;
+}
+
+#main-container .tab-content table th{
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    font-size: 1.3em;
+}
+#main-container .tab-content table td{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+#main-container .tab-content table th,
+#main-container .tab-content table td{
+    text-align: center;
+}
+#main-container #accordion table td,
+#main-container #accordion table th{
+    text-align: center;
+    font-size: 1.3em;
+}
+.panel-default .panel-title{
+     font-size: 15px
+}
+#main-container #accordion table td.name_row{
+    text-transform: capitalize;
+}
+
+#main-container .tab-content table td:first-child{
+    border-left: 1px solid #ddd;
+}
+
+#main-container .tab-content table td:last-child{
+    border-right: 1px solid #ddd;
+}
+
+#main-container .tab-content table.table_accordion tr,
+#main-container .tab-content table.table_accordion td{
+    border: none;
+}
+
+#main-container .nav-tabs li.active a,
+#main-container .tab-pane.active{
+    background: #d5ffd7;
+}
+
+#main-container .nav-tabs li.active a{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 1.1em;
+}
+
+#main-container #accordion a[aria-expanded="true"] table.table_accordion > tbody > tr,
+#main-container #accordion .panel-collapse .panel-body{
+    background: #fff;
+}
+
+
+#main-container #accordion a[aria-expanded="true"] table.table_accordion > tbody > tr > td{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#main-container #accordion a[aria-expanded="false"] table.table_accordion > tbody > tr > td{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* -------------------- */
+
+#wpbody-content{
+    padding-right: 20px;
+}
+
+#ttgModal .modal-dialog{
+    z-index: 99999;
+}
+
+#Loading .modal-dialog {
+    -webkit-transform: translate(0,300px);
+    -ms-transform: translate(0,300px);
+    -o-transform: translate(0,300px);
+    transform: translate(0,300px);
+}
+
+.modal.in .modal-dialog {
+    -webkit-transform: translate(0,100px);
+    -ms-transform: translate(0,100px);
+    -o-transform: translate(0,100px);
+    transform: translate(0,100px);
+}
+
+.modal-header {
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #0480be;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+     color: white;
+ }
+
+ .modal-body,
+ .modl-footer{
+    padding: 10px 15px;
+ }
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.nav-tabs > li{
+    margin-bottom: -3px;
+    margin-left: 12px;
+    border-bottom: none;
+}
+.nav-tabs > li > a{
+    color: black;
+}
+a:focus{
+    box-shadow: none !important;
+}
+
+.text-weight{
+    font-weight: bold;
+}
+
+.well.campos{
+    margin-bottom: 5px;
+}
+
+.panel-campo{
+    padding: 15px 5px;
+    border: 3px solid;
+    margin: 5px -5px;
+    border-radius: 10px;
+}
+
+.panel-campo.success{
+    border: 3px solid #5cb85c;
+}
+
+.panel-campo.danger{
+    border: 3px solid #d9534f;
+}
+
+.panel-campo .label{
+    width: 100%;
+}
+
+.handicap input[type="text"]{
+    background: #e8e8e8;
+    font-size: 12px;
+    padding: 0;
+    border: 1px solid #d8d8d8;
+    text-align: center;
+    height: 27px;
+    width: 100%;
+}
+
+.panel-table .col{
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+
+.panel-table .search_head .col{
+    height: 60px;
+}
+
+.panel-table .col.text-center{
+    justify-content: center;
+}
+
+.panel-table .row .btn{
+    margin: 0 5px;
+}
+
+.panel-table .label-default{
+    background: #d9d8d8;
+    color: black;
+    padding: 10px 5px;
+}
+
+.panel-table .hoyos .label{
+    padding: 0;
+    background: none;
+}
+
+.panel-table .hoyos .table{
+    margin-bottom: 0;
+    border-collapse: separate;
+    background: #d9d8d8;
+}
+
+.panel-table .hoyos .table td{
+    padding: 6px 8px;
+    border: 2px solid #f7f7f7;
+}
+
+.btn-circle {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+    cursor: default;
+    margin: 0 auto !important;
+  }
+  .btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+  }
+  .btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+  }
+
+  td.par,
+  td.handicap{
+      padding: 0 !important;
+  }
+
+  input.subtotal,
+  input.total,
+  .par select,
+  .handicap select{
+    width: 100%;
+    font-size: 1.2em !important;
+    background: #e8e8e8;
+    border: 1px solid #d8d8d8;
+    text-align: center !important;
+  }
+
+.panel-body.resultados input[type=text]{
+    margin-left: 20px !important;
+    width: 100%;
+    padding: 5px 10px;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+select.select2,.select2-container,.select2-selection{
+    width: 100% !important;
+}
+.select2-selection__arrow{
+    background: transparent !important;
+    margin-top: 5px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-width: 7px 6px 0 6px;
+    margin-left: -8px;
+    margin-top: -5px;
+    
+}
+.search_head select option.grey { 
+    background-color: grey;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #bdbdbd;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #bdbdbd;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #bdbdbd;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #bdbdbd;
+  }
+
+  #selected_user,#selected_campo{
+      text-transform: uppercase;
+  }
+  
